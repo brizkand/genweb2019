@@ -19,10 +19,10 @@
         </div>
     </div>
 </div>
-<div class="row d-flex justify-content-center p-4">
+<div class="row d-flex justify-content-center p-4  ">
     <?php if(!empty($industrial_and_security_products_more_infos)):?>
         <?php foreach($industrial_and_security_products_more_infos as $industrial_and_security_products_more_info):?>
-            <div class='col-md-3 wow animated zoomIn slower'>
+            <div class='col-md-3 wow animated zoomIn slower mb-4'>
                 <div class="card card-cascade wider" style='z-index: 0;'>
                     <div class="view view-cascade overlay">
                         <img  class="card-img-top" src="<?=base_url('public/images/industrial_and_security_products_images/' . $industrial_and_security_products_more_info['image'])?>" alt="<?=$industrial_and_security_products_more_info['name']?>">
